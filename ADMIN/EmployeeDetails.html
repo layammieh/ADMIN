@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="css/EmployeeDetails.css">
+</head>
+<body>
+    <div class="app"> 
+      <aside class="sidebar">
+        <nav class="space-y-2">
+            <a href="dashboard.html" class="block px-2 py-1 rounded hover:bg-pink-300">Dashboard</a>
+            <a href="AddProducts.html" class="block px-2 py-1 rounded hover:bg-pink-300">Add Products</a>
+            <a href="EmployeeDetails.html" class="block px-2 py-1 rounded hover:bg-pink-300">Employee Details</a>
+            <a href="handle_users.html" class="block px-2 py-1 rounded hover:bg-pink-300">Users</a>
+            <a href="handle_orders.html" class="block px-2 py-1 rounded hover:bg-pink-300">Orders</a>
+        </nav>
+      </aside>
+
+      <div class="content">
+        <h1>Employees</h1>
+        <button id="createNewEmployee">+ Create New Employee</button>
+        
+        <!-- Employee Table -->
+        <table>
+          <thead>
+            <tr>
+              <th>Employee_Id</th>
+              <th>First_Name</th>
+              <th>Last_Name</th>
+              <th>Email</th>
+              <th>Phone_Number</th>
+              <th>Job_Position</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="employeeTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="js/EmployeeDetails.js"></script>
+</body>
+</html>

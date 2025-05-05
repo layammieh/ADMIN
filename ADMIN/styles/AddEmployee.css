@@ -1,0 +1,83 @@
+.add-employee {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #FFDFEF;
+  color: #003092;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-employee h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #FFC6C6;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  margin-top: 0.7in; 
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #eee;
+}
+
+.profile-image .placeholder {
+  font-size: 60px;
+  color: #777;
+}
+
+.create-button {
+  grid-column: 1 / -1;
+  padding: 12px;
+  background-color: #FF90BB;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-button:hover {
+  background-color: #c4678b;
+}

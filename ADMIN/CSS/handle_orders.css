@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fddde6;
+    color: #4d2c3d;
+  }
+
+  .app {
+    display: flex;
+    height: 100vh;
+  }
+
+  .sidebar {
+    width: 240px;
+    background-color: #f8c9d8;
+    padding: 20px;
+  }
+
+  .sidebar nav a {
+    display: block;
+    margin: 10px 0;
+    color: #30051b;
+    text-decoration: none;
+  }
+  
